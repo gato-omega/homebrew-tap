@@ -1,5 +1,5 @@
 cask "league-of-legends-lan" do
-  version "1.0"
+  version :latest
   sha256 :no_check
 
   # League of Legends - Latin America North (LAN) [la1]
@@ -15,7 +15,11 @@ cask "league-of-legends-lan" do
     skip "unversioned URL"
   end
 
-  installer manual: "Install League of Legends la1.app"
+  auto_updates false
+
+  app "Install League of Legends la1.app"
+
+  # installer manual: "Install League of Legends la1.app"
 
   uninstall delete: "/Applications/League of Legends.app"
 
