@@ -17,7 +17,7 @@ cask "league-of-legends-lan" do
 
   auto_updates false
 
-  app "Install League of Legends la1.app"
+  app "League of Legends (LAN) Installer.app"
 
   # installer manual: "Install League of Legends la1.app"
 
